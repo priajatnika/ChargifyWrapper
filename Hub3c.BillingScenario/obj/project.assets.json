@@ -664,7 +664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mitrais\\.nuget\\packages\\": {},
+    "C:\\Users\\pria.jatnika\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -673,17 +673,17 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "E:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\Hub3c.BillingScenario.csproj",
+      "projectUniqueName": "X:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\Hub3c.BillingScenario.csproj",
       "projectName": "Hub3c.BillingScenario",
-      "projectPath": "E:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\Hub3c.BillingScenario.csproj",
-      "packagesPath": "C:\\Users\\mitrais\\.nuget\\packages\\",
-      "outputPath": "E:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\obj\\",
+      "projectPath": "X:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\Hub3c.BillingScenario.csproj",
+      "packagesPath": "C:\\Users\\pria.jatnika\\.nuget\\packages\\",
+      "outputPath": "X:\\GITBASH\\Chargify\\Chargify\\Hub3c.BillingScenario\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mitrais\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\pria.jatnika\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

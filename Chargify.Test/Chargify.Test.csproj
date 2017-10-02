@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Chargify.Wrapper\Chargify.Wrapper.csproj" />
+  </ItemGroup>
+
 </Project>

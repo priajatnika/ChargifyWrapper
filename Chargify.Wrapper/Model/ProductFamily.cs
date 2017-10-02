@@ -1,11 +1,14 @@
 ﻿using Newtonsoft.Json;
+using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace Chargify.Wrapper.Model
 {
-    public class Product
+    public class ProductFamily
     {
         [JsonProperty(PropertyName = "id")]
-        public int ProductId { get; set; }
+        public int ProductFamilyId { get; set; }
 
         [JsonProperty(PropertyName = "name")]
         public string Name { get; set; }
@@ -18,9 +21,5 @@ namespace Chargify.Wrapper.Model
 
         [JsonProperty(PropertyName = "handle")]
         public string Handle { get; set; }
-
-        [JsonProperty(PropertyName = "product_family")]
-        public ProductFamily ProductFamily { get; set; } 
     }
-
 }

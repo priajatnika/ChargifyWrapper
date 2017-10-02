@@ -16,11 +16,13 @@ namespace Chargify.Wrapper
         public const string API_KEY_DEMO = @"<<not set yet>>";
         public const string API_KEY_LIVE = @"<<not set yet>>";
 
-        public const string PRODUCT_FAMILY_HANDLE = "geekseat-billing-plans";
-        public const int PRODUCT_FAMILY_ID_DEVELOPMENT = 1038894;
+        public const string PRODUCT_FAMILY_HANDLE = "default_product_family";
+        public const int PRODUCT_FAMILY_ID_DEVELOPMENT = 1038946;
         public const int PRODUCT_FAMILY_ID_STAGING = 0;
         public const int PRODUCT_FAMILY_ID_DEMO = 0;
         public const int PRODUCT_FAMILY_ID_LIVE = 0;
+
+        public const string DEFAULT_PASSWORD = "x";
 
         public static string GetSiteDomain(SiteDomainType site = SiteDomainType.Development)
         {

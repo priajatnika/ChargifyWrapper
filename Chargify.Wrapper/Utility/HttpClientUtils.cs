@@ -1,4 +1,5 @@
-﻿using Chargify.Wrapper.Response;
+﻿using Chargify.Wrapper.Model;
+using Chargify.Wrapper.Response;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using System;
@@ -42,7 +43,6 @@ namespace Chargify.Wrapper.Utility
                 return result;
             }
 
-            //todo: handle when success with no response body
             var responseBody = response.Content.ReadAsStringAsync().Result;
             if (response.IsSuccessStatusCode)
             {
@@ -60,19 +60,7 @@ namespace Chargify.Wrapper.Utility
                     }
                     else
                     {
-                        var errorResponse = JsonConvert.DeserializeObject<ErrorResponse>(responseBody);
-                        if (errorResponse != null && errorResponse.Errors != null)
-                        {
-                            result.IsError = true;
-                            foreach (var detail in errorResponse.Errors)
-                            {
-                                result.Message += $"{Environment.NewLine}- {detail}";
-                            }
-                        }
-                        else
-                        {
-                            result.Model = (T)JsonConvert.DeserializeObject(responseBody, typeof(T));
-                        }
+                        result.Model = JsonConvert.DeserializeObject<T>(JsonRemoveHeadProperty(responseBody));
                     }
                 }
             }
@@ -87,5 +75,32 @@ namespace Chargify.Wrapper.Utility
             }
             return result;
         }
+
+        private static string JsonRemoveHeadProperty(string json)
+        {
+            var result = json;
+
+            var Values = JToken.Parse(json);
+            if (Values.Type == JTokenType.Array)
+            {
+                var records = new StringBuilder();
+                records.Append("[");
+                foreach (var v in Values)
+                {
+                    records.Append(v.SelectToken("*").ToString() + ",");
+                }
+                records.Append("]");
+
+                result = records.ToString();
+            }
+            else
+            {
+                result = Values.SelectToken("*").ToString();
+            }
+
+            return result;
+        }
+
+        
     }
 }

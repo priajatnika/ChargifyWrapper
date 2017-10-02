@@ -1,0 +1,13 @@
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Test.deps.json
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Test.runtimeconfig.json
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Test.runtimeconfig.dev.json
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Test.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Test.pdb
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Wrapper.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Test\bin\Debug\netcoreapp2.0\Chargify.Wrapper.pdb
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.csprojResolveAssemblyReference.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.csproj.CoreCompileInputs.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.AssemblyInfoInputs.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.AssemblyInfo.cs
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Test\obj\Debug\netcoreapp2.0\Chargify.Test.pdb

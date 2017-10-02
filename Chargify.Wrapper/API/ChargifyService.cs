@@ -31,7 +31,7 @@ namespace Chargify.Wrapper.API
             {
                 using (var client = new HttpClient())
                 {
-                    client.SetBasicAuthentication(GetSiteDomain(_site), GetAPIKey(_site));
+                    client.SetBasicAuthentication(GetAPIKey(_site), DEFAULT_PASSWORD);
                     client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
 
                     var uri = new UriBuilder(new Uri(new Uri(GetEndpoint(_site)), api));

@@ -4,3 +4,12 @@ E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.
 E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.AssemblyInfo.cs
 E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.deps.json
 E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.deps.json
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.pdb
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.csprojResolveAssemblyReference.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.csproj.CoreCompileInputs.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.AssemblyInfoInputs.cache
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.AssemblyInfo.cs
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.dll
+X:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.pdb
