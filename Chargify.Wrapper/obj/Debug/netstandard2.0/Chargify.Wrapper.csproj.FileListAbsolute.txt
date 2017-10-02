@@ -1,0 +1,6 @@
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.csprojResolveAssemblyReference.cache
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.csproj.CoreCompileInputs.cache
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.AssemblyInfoInputs.cache
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\obj\Debug\netstandard2.0\Chargify.Wrapper.AssemblyInfo.cs
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.deps.json
+E:\GITBASH\Chargify\Chargify\Chargify.Wrapper\bin\Debug\netstandard2.0\Chargify.Wrapper.dll
